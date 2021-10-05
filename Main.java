@@ -8,6 +8,8 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		double weight = sc.nextDouble();
 		sc.close();
+		
+		System.out.println("이상나");
 		if(weight<=50.8) {
 			System.out.println("Flyweight");
 		}
